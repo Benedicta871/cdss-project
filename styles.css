@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+}
+
+/* TOP BAR */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.brand span {
+    color: #2563eb;
+}
+
+/* KPI */
+.kpi-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+}
+
+.kpi {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+/* LAYOUT */
+.layout {
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    gap: 15px;
+    padding: 15px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+/* MAIN */
+.main .card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* RIGHT */
+.rightbar .card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* PATIENT ITEM */
+.patient-item {
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.patient-item:hover {
+    background: #f3f4f6;
+}
+
+/* ROLE BADGE */
+.role-banner {
+    padding: 8px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
