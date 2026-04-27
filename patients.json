@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "patients": [
+    {
+      "id": "P001",
+      "name": "John D.",
+      "age": 58,
+      "sex": "Male",
+      "results": [
+        {
+          "test": "Fasting Glucose",
+          "value": 5.2,
+          "unit": "mmol/L",
+          "lowRef": 3.9,
+          "highRef": 5.6,
+          "severity": "Normal"
+        },
+        {
+          "test": "LDL",
+          "value": 2.9,
+          "unit": "mmol/L",
+          "lowRef": 1.5,
+          "highRef": 3.4,
+          "severity": "Normal"
+        },
+        {
+          "test": "Potassium",
+          "value": 4.1,
+          "unit": "mmol/L",
+          "lowRef": 3.5,
+          "highRef": 5.0,
+          "severity": "Normal"
+        }
+      ]
+    },
+
+    {
+      "id": "P002",
+      "name": "Sarah K.",
+      "age": 45,
+      "sex": "Female",
+      "results": [
+        {
+          "test": "Fasting Glucose",
+          "value": 7.4,
+          "unit": "mmol/L",
+          "lowRef": 3.9,
+          "highRef": 5.6,
+          "severity": "High"
+        },
+        {
+          "test": "LDL",
+          "value": 4.9,
+          "unit": "mmol/L",
+          "lowRef": 1.5,
+          "highRef": 3.4,
+          "severity": "High"
+        },
+        {
+          "test": "Potassium",
+          "value": 3.2,
+          "unit": "mmol/L",
+          "lowRef": 3.5,
+          "highRef": 5.0,
+          "severity": "Moderate"
+        }
+      ]
+    },
+
+    {
+      "id": "P003",
+      "name": "David M.",
+      "age": 62,
+      "sex": "Male",
+      "results": [
+        {
+          "test": "Fasting Glucose",
+          "value": 5.0,
+          "unit": "mmol/L",
+          "lowRef": 3.9,
+          "highRef": 5.6,
+          "severity": "Normal"
+        },
+        {
+          "test": "LDL",
+          "value": 3.6,
+          "unit": "mmol/L",
+          "lowRef": 1.5,
+          "highRef": 3.4,
+          "severity": "Moderate"
+        },
+        {
+          "test": "Potassium",
+          "value": 4.6,
+          "unit": "mmol/L",
+          "lowRef": 3.5,
+          "highRef": 5.0,
+          "severity": "Normal"
+        }
+      ]
+    }
+  ]
+}
