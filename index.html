@@ -12,7 +12,6 @@
 
 <div class="app-shell">
 
-    <!-- TOP BAR -->
     <header class="topbar">
         <div class="brand">
             🧠 MediCore <span>CDSS</span>
@@ -21,19 +20,15 @@
         <div id="systemMeta" class="meta"></div>
     </header>
 
-    <!-- KPI ROW -->
     <section class="kpi-row" id="kpiRow"></section>
 
-    <!-- MAIN GRID -->
     <div class="layout">
 
-        <!-- LEFT: PATIENT LIST -->
         <aside class="sidebar">
             <h3>Patients</h3>
             <div id="patientList"></div>
         </aside>
 
-        <!-- CENTER: MAIN DASHBOARD -->
         <main class="main">
 
             <div id="roleBanner" class="role-banner"></div>
@@ -44,7 +39,6 @@
 
         </main>
 
-        <!-- RIGHT: INSIGHTS -->
         <aside class="rightbar">
 
             <div class="card" id="insightsCard"></div>
@@ -60,11 +54,12 @@
 
 </div>
 
-<!-- SCRIPTS (KEEP AS IS) -->
+<script src="js/state.js"></script>
 <script src="js/dataService.js"></script>
 <script src="js/clinicalEngine.js"></script>
 <script src="js/components.js"></script>
 <script src="js/uiRenderer.js"></script>
+<script src="js/utils.js"></script>
 <script src="js/app.js"></script>
 
 </body>
