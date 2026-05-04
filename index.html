@@ -1,11 +1,11 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MediCore CDSS | Clinical Decision Dashboard</title>
 
-    <!-- CORRECT CSS PATH -->
+    <!-- CORRECT CSS PATH (ROOT) -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -13,7 +13,6 @@
 
 <div class="app-shell">
 
-    <!-- TOP BAR -->
     <header class="topbar">
         <div class="brand">
             🧠 MediCore <span>CDSS</span>
@@ -21,26 +20,21 @@
         <div id="systemMeta" class="meta"></div>
     </header>
 
-    <!-- KPI ROW -->
     <section class="kpi-row" id="kpiRow"></section>
 
-    <!-- MAIN GRID -->
     <div class="layout">
 
-        <!-- LEFT -->
         <aside class="sidebar">
             <h3>Patients</h3>
             <div id="patientList"></div>
         </aside>
 
-        <!-- CENTER -->
         <main class="main">
             <div id="roleBanner" class="role-banner"></div>
             <div class="card" id="resultsCard"></div>
             <div class="card" id="labView"></div>
         </main>
 
-        <!-- RIGHT -->
         <aside class="rightbar">
             <div class="card" id="insightsCard"></div>
 
@@ -54,7 +48,7 @@
 
 </div>
 
-<!-- CORRECT SCRIPT PATHS + ORDER -->
+<!-- CORRECT SCRIPT PATHS (ROOT) -->
 <script src="state.js"></script>
 <script src="dataService.js"></script>
 <script src="clinicalEngine.js"></script>
